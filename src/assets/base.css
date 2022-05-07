@@ -43,7 +43,7 @@
   --timing-function: cubic-bezier(0.3, 0.76, 0.36, 0.93);
 
   /* Шрифты */
-  --base-font: 'Futura PT', arial, sans-serif;
+  --base-font: 'Circe', arial, sans-serif;
 
   /* Максимальная длина контейнера */
   --container-max-width: 1440px;
@@ -116,4 +116,7 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+a {
+  text-decoration: none;
 }
