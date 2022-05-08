@@ -2,7 +2,7 @@ import { fileURLToPath, URL } from "url";
 
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
-import { createSvgIconsPlugin } from 'vite-plugin-svg-icons'
+import { createSvgIconsPlugin } from "vite-plugin-svg-icons";
 import { resolve } from "path";
 
 // https://vitejs.dev/config/
@@ -20,6 +20,9 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": fileURLToPath(new URL("./src", import.meta.url)),
+      // this is required for the SCSS modules
+      find: /^~(.*)$/,
+      replacement: "$1",
     },
   },
 });
