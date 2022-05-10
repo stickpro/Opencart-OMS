@@ -1,5 +1,5 @@
 <template>
-  <nav class="navigation">
+  <nav class="navigation navbar-dark">
     <ul>
       <li>
         <a href="">
@@ -23,17 +23,7 @@
   width: 5rem;
   position: fixed;
   height: 100vh;
-  background: linear-gradient(
-    316.16deg,
-    #e73959 34.86%,
-    #e73d58 48.43%,
-    #e74955 62.6%,
-    #e95e51 76.93%,
-    #ea7b4b 91.41%,
-    #eda044 105.89%,
-    #efce3b 120.53%,
-    #f0d43a 122.21%
-  );
+
   ul {
     display: flex;
     flex-direction: column;
