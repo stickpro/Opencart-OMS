@@ -1,6 +1,6 @@
 .icon {
     pointer-events: none;
-
+    z-index: 1;
     &--rotate {
         &-deg45 {
             transform: rotate(45deg);
