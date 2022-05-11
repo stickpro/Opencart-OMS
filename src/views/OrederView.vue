@@ -4,7 +4,12 @@
       <div class="row">
         <div class="col col-lg-2"><Orders /></div>
         <div class="col col-lg-10">
-          <div class="w-100">content</div>
+          <div class="row">
+            <div class="col-lg-8">
+              <OrderItems />
+            </div>
+            <div class="col-lg-4">contens</div>
+          </div>
         </div>
       </div>
     </div>
@@ -13,6 +18,7 @@
 
 <script setup lang="ts">
 import Orders from "@/components/order/Orders.vue";
+import OrderItems from "@/components/order/OrderItems.vue";
 </script>
 <style lang="postcss">
 main {
