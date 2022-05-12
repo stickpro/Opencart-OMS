@@ -57,7 +57,7 @@
     </div>
   </aside>
 </template>
-<script labg="ts" setup>
+<script lang="ts" setup>
 import { ref } from "vue";
 
 const orders = ref([

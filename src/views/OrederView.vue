@@ -8,7 +8,9 @@
             <div class="col-lg-8">
               <OrderItems />
             </div>
-            <div class="col-lg-4">contens</div>
+            <div class="col-lg-4">
+              <OrderOwerview />
+            </div>
           </div>
         </div>
       </div>
@@ -19,6 +21,7 @@
 <script setup lang="ts">
 import Orders from "@/components/order/Orders.vue";
 import OrderItems from "@/components/order/OrderItems.vue";
+import OrderOwerview from "@/components/order/OrderOwerview.vue";
 </script>
 <style lang="postcss">
 main {
