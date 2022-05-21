@@ -10,6 +10,7 @@
             </div>
             <div class="col-lg-4">
               <OrderOwerview />
+              <CustomerDetails />
             </div>
           </div>
         </div>
@@ -22,6 +23,7 @@
 import Orders from "@/components/order/Orders.vue";
 import OrderItems from "@/components/order/OrderItems.vue";
 import OrderOwerview from "@/components/order/OrderOwerview.vue";
+import CustomerDetails from "@/components/order/CustomerDetails.vue";
 </script>
 <style lang="postcss">
 main {
